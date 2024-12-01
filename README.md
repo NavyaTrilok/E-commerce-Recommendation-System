@@ -24,7 +24,7 @@ Recommender system are used to suggest products based on their intrest or usage 
 
 For example, Amazon recommends products to purchase based on thh prievous items the cusotmer has bought from the site
 
-In this project, I used item-based collabraive filter, Also used logisitc reression to help find any false posivie son the possible recommendations given out to clients
+In this project, I used item-based collaborative filter, Also used logistic regession to help find any false positives on the possible recommendations given out to clients
 
 *****************************************************************************************************************************************************************************************
 Business Metrics 

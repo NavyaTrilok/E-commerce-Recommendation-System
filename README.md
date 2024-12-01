@@ -6,7 +6,7 @@ Retail Rocket is a company that provides personalized real-time recommendations 
 
 Retail Rocket typically starts by collecting and analyzing user behavior data. This data includes information on users' browsing history, product views, clicks, purchases, and other interactions on the e-commerce platform
 
-The dataset consists of three files: a file with behaviour data (events.csv), a file with item properties (item_properties.сsv) and a file, which describes category tree (category_tree.сsv),The behaviour data, i.e. events like clicks, add to carts, transactions, represent interactions ,A visitor can make three types of events, namely “view”, “addtocart” or “transaction”
+The dataset consists of three files: a file with behaviour data (events.csv), a file with item properties (item_properties.сsv) and a file, which describes category tree (category_tree.сsv),The behaviour data, i.e. events like clicks, add to carts, transactions, represent interactions, A visitor can make three types of events, namely “view”, “addtocart” or “transaction”
 
 Task : To predict properties of items in "addtocart" events based on "view" events, Implement collaborative filtering to find patterns based on user behavior i.e. Whether the user has view the items that 'added to the cart or not'.
 Recommeder system creates a similarity between the user and items and exploits the similarity between user/item to make recommendations.
@@ -18,11 +18,11 @@ It can increase the user engagement. For example, there's 40% more click on the 
 It helps the item providers to deliver the items to the right user.In Amazon , a decent amount of products get sold due to recommendation.
 It helps to make the contents more personalized.
 Recommender system Problem Domain/Statement
-This notebook implements a ecommerece reocmmender system
+This notebook implements a ecommerece recommender system
 
-Recommender system are used to suggest products based on their intrest or usage history.
+Recommender system are used to suggest products based on their interest or usage history.
 
-For example, Amazon recommends products to purchase based on thh prievous items the cusotmer has bought from the site
+For example, Amazon recommends products to purchase based on thh prievous items the customer has bought from the site
 
 In this project, I used item-based collaborative filter, Also used logistic regession to help find any false positives on the possible recommendations given out to clients
 
